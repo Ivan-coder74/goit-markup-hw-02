@@ -17,13 +17,14 @@ a {
 ul {
   list-style: none;
 }
+.page{
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+}
 /* header */
 
 .navigation-logo-link {
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
 font-family: "Raleway";
 font-size: 26px;
 line-height: 1.2;
@@ -36,15 +37,14 @@ font-family: "Raleway";
 font-size: 26px;
 letter-spacing: 0.03em;
 }
+.navigation-studio:focus,
+.navigation-studio:hover{
+  color: var(--accent-color);
+}
 
 .navigation-studio{
-position: absolute;
-width: 45px;
-height: 16px;
-left: 453px;
-top: 32px;
+  
 font-family: "Roboto";
-font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -52,31 +52,27 @@ font-style: normal;
 }
 
 .navigation-portfolio{
- position: absolute;
-width: 72px;
-height: 16px;
-left: 548px;
-top: 32px;
 font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--accent-color)
 }
+.navigation-portfolio:focus,
+.navigation-portfolio:hover{
+  color: var(--accent-color);
+}
 .navigation-contacts{
-    position: absolute;
-width: 64px;
-height: 16px;
-left: 670px;
-top: 32px;
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--title-text-color);
 }
+.navigation-contacts:hover,
+.navigation-contacts:focus
+{color: var(--accent-color);}
 .mailto{
  font-family: "Roboto", sans-serif;
   color: var(--title-text-color);
@@ -86,13 +82,19 @@ color: var(--title-text-color);
   letter-spacing: 0.02em;
 
 }
+.mailto:hover,
+.mailto:focus
+{color: var(--accent-color);}
 .tel{
      font-family: "Roboto", sans-serif;
-  color: var(--accent-color);
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;}
+.tel:hover,
+.tel:focus
+{color: var(--accent-color);}
 /*HERO SECTION*/
 .portfolio {
 
@@ -124,7 +126,7 @@ color: var(--title-text-color);
 }
 .portfolio-sample{
   font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
@@ -135,8 +137,6 @@ color:var(--title-text-color);
 
 .portfolio-info{
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.9;
 
@@ -147,8 +147,6 @@ color:var(--primary-text-color)}
 /* FOOTER */
 .footer-container{
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -173,8 +171,6 @@ letter-spacing: 0.03em;
 }
 .contact-address{
 font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 line-height: 2;
 letter-spacing: 0.03em;
 color: var(--secondary-text-color);
@@ -182,54 +178,53 @@ color: var(--secondary-text-color);
 }
 .foter-mailto{
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 line-height: 1.7;
 letter-spacing: 0.03em;
-color: var(--contacts-text-color);
+color: var(--secondary-text-color);;
 
 }
+.foter-mailto:hover,
+.foter-mailto:focus {
+  color: var(--accent-color)}
 .foter-tel{
 font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 line-height: 1.7;
 letter-spacing: 0.03em;
-color: #D9D9D9;
-
+color:var(--secondary-text-color);
 }
+.foter-tel:hover,
+.foter-tel:focus {
+  color: var(--accent-color)}
 .footer-container {
   background-color: var(--background-color);
 }
 
 .contact-address {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  color: var(--secondary-text-color);
+ 
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.contact-address:hover,
+.contact-address:focus {
+  color: var(--accent-color)}
+
+
+.footer-contacts {
+  font-family: "Roboto", sans-serif;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
-.footer-contacts {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--contacts-text-color);
-}
-
-.footer-contacts .link:hover,
-.footer-contacts .link:focus {
-  color: var(--accent-color);
-}
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
