@@ -95,7 +95,6 @@ color: var(--title-text-color);
 .hero-container {
   background-color: var(--background-color);
   max-width: 1600px;
-  height: 600px;
   text-align: center;
 }
 .hero-title {
@@ -212,6 +211,7 @@ letter-spacing: 0.03em;
 }
 .contact-address{
 font-family: 'Roboto';
+font-style: normal;
 line-height: 2;
 letter-spacing: 0.03em;
 color: var(--secondary-text-color);
@@ -228,7 +228,6 @@ color: var(--primary-text-color);
 .foter-mailto:focus {
   color: var(--accent-color)}
 .foter-tel{
-font-family: 'Roboto';
 line-height: 1.7;
 letter-spacing: 0.03em;
 color:var(--primary-text-color)
