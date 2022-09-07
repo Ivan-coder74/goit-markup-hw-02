@@ -218,7 +218,7 @@ color: var(--secondary-text-color);
 
 }
 .foter-mailto{
-  font-family: 'Roboto';
+ 
 line-height: 1.7;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
@@ -252,7 +252,7 @@ color:var(--primary-text-color)
   color: var(--accent-color)}
 
 .footer-contacts {
-  font-family: "Roboto", sans-serif;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
