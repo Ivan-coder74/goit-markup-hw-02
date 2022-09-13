@@ -39,7 +39,6 @@ ul
 li
 a{
   margin: 0;
-  margin-bottom: 0;
 }
 img{display: block;
 }
@@ -178,7 +177,7 @@ color: var(--title-text-color);
   letter-spacing: 0.06em;
   margin-top:30px;
  
-
+border: transparent;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -346,7 +345,7 @@ margin-top: 20px;
 
 }
 .footer-ul{
-  margin: 0px;
+ 
 }
 
 .footer-li{
@@ -468,6 +467,7 @@ border-radius: 4px;
 }
 .porfolio-conteiner{
   max-width: 1600px;
+  justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
   padding-left: 15px;
@@ -502,7 +502,7 @@ color:var(--title-text-color);
   font-family: 'Roboto';
 font-size: 16px;
 line-height: 1.9;
- outline: 1px solid red;
+
 
 letter-spacing: 0.03em;
 
