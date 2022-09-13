@@ -9,37 +9,40 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Портфолио</title>
     <link rel="stylesheet" href="./css/style.css" />
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     </head>
 
   <body class="page">
     <!-- Header -->
     <header class="header" >
-      <nav class="navigation" >
-        <ul>
-          <li><a href="#"class="navigation-logo-link" >Web<span class="navigation-logo-header">Studio</span></a>
-          <li><a href="./index.html"class="navigation-studio-portfolio">Студія</a></li>
-          <li><a href="./portfolio.html"class="navigation-portfolio-port" >Портфоліо</a></li>
-          <li><a href="#" class="navigation-contacts">Контакти</a></li>
+        
+      <nav class="main-nav"  >
+<a href="#"class="navigation-logo-link" >Web<span class="navigation-logo-header">Studio</span></a>
+        <ul class="navigation">
+    
+          <li class="navigation-site" ><a href="./index.html"class="navigation-studio-portfolio">Студія</a></li>
+          <li class="navigation-site" ><a href="./portfolio.html"class="navigation-portfolio-port" >Портфоліо</a></li>
+          <li class="navigation-site" ><a href="#" class="navigation-contacts">Контакти</a></li>
         </ul>
-      </nav >
-        <ul>
-          <li><a class="mailto" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+      
+        <ul class="navigation-contact">
+          <li class="navigation-site-contac"><a class="mailto" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="navigation-site-contac"><a class="tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
+        </nav >
     </header>
      <main class="portfolio">
         <section >
             <!-- <h1>Портфолио</h1> -->
-            <ul>
-                <li><button type="button" class="button-secondary">Усі</button></li>
-                <li><button type="button" class="button-secondary">Веб-сайти</button></li>
-                <li><button type="button" class="button-secondary">Додатки</button></li>
-                <li><button type="button" class="button-secondary">Дизайн</button></li>
-                <li><button type="button" class="button-secondary">Маркетинг</button></li>
+            <ul class="portfolio-button">
+                <li class="portfolio-button-li"><button type="button" class="button-secondary">Усі</button></li>
+                <li class="portfolio-button-li"><button type="button" class="button-secondary">Веб-сайти</button></li>
+                <li class="portfolio-button-li"><button type="button" class="button-secondary">Додатки</button></li>
+                <li class="portfolio-button-li"><button type="button" class="button-secondary">Дизайн</button></li>
+                <li class="portfolio-button-li"><button type="button" class="button-secondary">Маркетинг</button></li>
             </ul>
-            <ul>
-                <li>
+            <ul class="porfolio-conteiner">
+                <li class="porfolio-conteiner-li">
                     <a href="" class="link">
                         <img src="./imeges2/project 1.png" width="380" alt="Ноутбук">
                         <h2 class="portfolio-sample">Технокряк</h2>
@@ -47,7 +50,7 @@
                         
                     </a>
                 </li>
-                <li>
+                <li class="porfolio-conteiner-li">
                     <a href="" class="link">
                         <img src="./imeges2/project 2.png" width="380" alt="Два баскетболиста в прыжке">
                         <h2 class="portfolio-sample">Постер New Orlean vs Golden Stars</h2>
@@ -55,7 +58,7 @@
                         
                     </a>
                 </li>
-                <li>
+                <li class="porfolio-conteiner-li">
                     <a href="" class="link">
                         <img src="./imeges2/project 3.png" width="380" alt="Логотип ресторана">
                         <h2 class="portfolio-sample">Ресторан Seafood</h2>
@@ -63,7 +66,7 @@
                         
                     </a>                
                 </li>
-                <li>
+                <li class="porfolio-conteiner-li">
                     <a href="" class="link">
                         <img src="./imeges2/project 4.png" width="380" alt="Наушники">
                         <h2 class="portfolio-sample">Проект Prime</h2>
@@ -71,7 +74,7 @@
                     
                     </a>
                 </li>
-                <li>
+                <li class="porfolio-conteiner-li">
                     <a href="" class="link">
                         <img src="./imeges2/project 5.png"width=380" alt="Две коробки">
                         <h2 class="portfolio-sample">Проект Boxes</h2>
@@ -79,7 +82,7 @@
                        
                     </a>
                 </li>
-                <li>
+                <li class="porfolio-conteiner-li">
                     <a href="" class="link">
                         <img src="./imeges2/project 6.png" width="380" alt="Дизайн проекта на монитор">
                         <h2 class="portfolio-sample">Inspiration has no Borders</h2>
@@ -87,7 +90,7 @@
                         
                     </a>
                 </li>
-                <li>
+                <li class="porfolio-conteiner-li">
                     <a href="" class="link">
                         <img src="./imeges2/project 7.png" width="380" alt="Открытая книга">
                         <h2 class="portfolio-sample">Видання Limited Edition</h2>
@@ -95,7 +98,7 @@
                         
                     </a>
                 </li>
-                <li>
+                <li class="porfolio-conteiner-li">
                     <a href="" class="link">
                         <img src="./imeges2/project 8.png" width="380" alt="Тег метки">
                         <h2 class="portfolio-sample">Проект LAB</h2>
@@ -103,7 +106,7 @@
                     
                     </a>
                 </li>
-                <li>
+                <li class="porfolio-conteiner-li">
                     <a href="" class="link">
                         <img src="./imeges2/project 9.png" width="380" alt="Ноутбук в работе">
                         <h2 class="portfolio-sample">Growing Business</h2>
